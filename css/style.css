@@ -1,0 +1,166 @@
+#newtask{
+    position: relative;
+    padding: 30px 20px;
+}
+#newtask input{
+    width: 60%;
+    height: 25px;
+    padding: 12px;
+    color: #111111;
+    font-weight: 500;
+    position: relative;
+    margin-left: 150px;
+    border-radius: 5px;
+    font-family: 'Poppins',sans-serif;
+    font-size: 15px;
+    border: 2px solid #d1d3d4;
+}
+
+#newtask input:focus{
+    outline: none;
+    border-color: #0d75ec;
+}
+#newtask button{
+    position: relative;
+    right: 74px;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #0d75ec;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    outline: none;
+    width: 8%;
+    height: 35px;
+    border-radius: 5px;
+    font-family: 'Poppins',sans-serif;
+}
+#tasks{
+    border-radius: 15px;
+    /* border: 1px solid #cfcfcf; */
+    width: 59%;
+    position: relative;
+    left: 145px;
+    background-color: #ffffff;
+    padding: 20px 20px;
+    margin-top: 10px;
+}
+
+.task{
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    height: 10px;
+    margin-bottom: 8px;
+    padding: 5px 10px;
+    display: flex;
+    border: 1px solid #d1d1d1;
+    border-radius: 10px;
+    height: 35px;
+    width: 100%;
+    margin-right: 10px;
+}
+.task span{
+    font-family: 'Poppins',sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+.task .delete{
+    background-color: #be5073;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    height: 30px;
+    width: 40px;
+    border-radius: 5px;
+    padding: 8px
+}
+
+.edit{
+    margin-left: 380px;
+    background-color: #0a2ea4;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    height: 30px;
+    width: 40px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+header{
+    background-color: #22224b;
+    height: 50px;
+}
+
+header p{
+    text-align: center;
+    line-height: 50px;
+    color: #ff5252;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form h3{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 0px;
+    padding-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form ul{
+    display: flex;
+    margin-left: 60px;
+}
+
+.form ul li{
+    list-style: none;
+    width: 40px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #ededed;
+    text-align: center;
+    padding-top: 10px;
+    margin-left: 20px;
+}
+
+.form li a{
+    text-decoration: none;
+    align-items: center;
+    color: #111111;
+}
+
+.form{
+    background-color: white;
+}
+
+.bg{
+    background-color: #40407a;
+    height: 500px;
+}
+
+.bg-white{
+    background-color: white;
+    width: 800px;
+    margin-left: 350px;
+    display: inline-block;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.bg-white ul li:hover{
+    background-color: #be5073;
+    transition: 0.3s ease-in;
+}
+
+.text-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px;
+}
+
