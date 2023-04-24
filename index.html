@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Input Example</title>
+</head>
+<body>
+  <div class="string">
+    <label for="input">Nhập chuỗi:</label>
+    <input type="text" id="input" placeholder="nhập vào một chuỗi">
+    <button onclick="reverseString()">Đảo ngược chuỗi</button>
+    <p id="output"></p>
+  </div>
+  <div class="Capitalization">
+    <label for="str">Nhập chuỗi:</label>
+    <input type="text" id="str" name="str" placeholder="nhập vào một chuỗi">
+    <button onclick="capitalize()">In hoa ký tự đầu mỗi từ</button>
+    <p id="result"></p>
+  </div>
+  <div class="deleteElement">
+    <label for="arr">Nhập mảng:</label>
+    <input type="text" id="arr" name="arr" placeholder="nhập mảng 1,2,3,4,...">
+    <button onclick="removeDuplicates()">Xóa các phần tử trùng</button>
+    <p id="result"></p>
+  </div>
+  <div class="arrange">
+    <label for="arr">Nhập mảng:</label>
+    <input type="text" id="arr" name="arr" placeholder="nhập mảng ví dụ 1,3,2,4,5,...">
+    <button onclick="sortArray()">Sắp xếp mảng</button>
+    <p id="result"></p>
+  </div>
+  <script src="./js/script.js"></script>
+</body>
+</html>

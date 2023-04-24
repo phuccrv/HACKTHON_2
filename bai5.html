@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+        thead tr th{
+            border: 1px solid;
+        }
+        tbody tr td{
+            border: 1px solid;
+            
+        }
+    </style>
+</head>
+<body>
+    <header></header>
+    <main>
+      <div class="form-add">
+        <div class="form-title">
+          <h2>Thêm một nhân viên mới</h2>
+        </div>
+
+        <div class="form-content">
+          <div class="form-card">
+            <label for="id-product">ID</label>
+            <input type="text" name="imageUrl" id="id-product" />
+          </div>
+          <div class="product-name">
+            <label for="name">Tên NV</label>
+            <input type="text" name="name" id="product-name" />
+          </div>
+          <div class="form-card">
+            <label for="price">Giới tinh</label>
+            <input type="text" name="gender" id="gender" />
+          </div>
+        </div>
+        <button onclick="handleAdd()">Thêm</button>
+      </div>
+      <div class="form-edit">
+        <div class="form-title">
+          <h2>Sửa một nhân viên</h2>
+        </div>
+        <div class="form-content">
+          <div class="form-card">
+            <label for="id-product-edit">ID</label>
+            <input type="text" name="imageUrl" id="id-product-edit" disabled />
+          </div>
+          <div class="product-name">
+            <label for="name-edit">Tên NV</label>
+            <input type="text" name="name" id="product-name-edit" />
+          </div>
+          <div class="form-card">
+            <label for="price-edit">Giới tính</label>
+            <input type="text" name="gender" id="gender-edit" />
+          </div>
+        </div>
+        <button onclick="handleEdit()">Edit</button>
+      </div>
+      <br />
+      <table cellpadding="10">
+        <caption>
+          <h2>Danh mục nhân viên</h2>
+        </caption>
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Tên NV</th>
+            <th>Giới tính</th>
+            <th>Hành động</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Tú</td>
+            <td>Nam</td>
+            <td><button>Edit</button><button>Del</button></td>
+          </tr>
+        </tbody>
+        <tfoot></tfoot>
+      </table>
+    </main>
+    <footer></footer>
+    <script src="./js/NV.js"></script>
+</body>
+</html>
